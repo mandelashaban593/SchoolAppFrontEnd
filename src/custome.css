@@ -1,0 +1,62 @@
+/* styles.css */
+/* Style the Container */
+.container-custom {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Style the Rows */
+.row-custom {
+  margin-bottom: 10px; /* Small space between rows */
+}
+
+/* Style the Columns */
+.col-custom {
+  padding: 2px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-right: 2px; /* Small space between columns */
+  width: 40px;
+}
+
+/* Style the Links */
+.link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.my-form {
+  width: 200px; /* Adjust the width as needed */
+  margin-left: 500px;
+}
+
+
+
+.teacher-list {
+  position: relative;
+}
+
+.confirmation-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.confirmation-box {
+  text-align: center;
+}
+
+.confirmation-box button {
+  margin: 0 10px;
+}
